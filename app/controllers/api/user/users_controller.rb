@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-class Api::User::UsersController < Api::User::BaseController
-    
-
+module Api
+  module User
+    class UsersController < Api::User::BaseController
+    end
+  end
 end
